@@ -17,6 +17,7 @@
 		CEF25C2A274433C6008283AB /* DemoGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF25C29274433C6008283AB /* DemoGestureTests.m */; };
 		CEF25C34274433C6008283AB /* DemoGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF25C33274433C6008283AB /* DemoGestureUITests.m */; };
 		CEF25C36274433C6008283AB /* DemoGestureUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF25C35274433C6008283AB /* DemoGestureUITestsLaunchTests.m */; };
+		CEF25C44274434BE008283AB /* UISwipeDownLeftGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF25C43274434BE008283AB /* UISwipeDownLeftGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CEF25C2F274433C6008283AB /* DemoGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF25C33274433C6008283AB /* DemoGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoGestureUITests.m; sourceTree = "<group>"; };
 		CEF25C35274433C6008283AB /* DemoGestureUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoGestureUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CEF25C42274434BE008283AB /* UISwipeDownLeftGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISwipeDownLeftGesture.h; sourceTree = "<group>"; };
+		CEF25C43274434BE008283AB /* UISwipeDownLeftGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwipeDownLeftGesture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				CEF25C1B274433C5008283AB /* LaunchScreen.storyboard */,
 				CEF25C1E274433C5008283AB /* Info.plist */,
 				CEF25C1F274433C5008283AB /* main.m */,
+				CEF25C42274434BE008283AB /* UISwipeDownLeftGesture.h */,
+				CEF25C43274434BE008283AB /* UISwipeDownLeftGesture.m */,
 			);
 			path = DemoGesture;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			files = (
 				CEF25C15274433BF008283AB /* ViewController.m in Sources */,
 				CEF25C0F274433BF008283AB /* AppDelegate.m in Sources */,
+				CEF25C44274434BE008283AB /* UISwipeDownLeftGesture.m in Sources */,
 				CEF25C20274433C5008283AB /* main.m in Sources */,
 				CEF25C12274433BF008283AB /* SceneDelegate.m in Sources */,
 			);

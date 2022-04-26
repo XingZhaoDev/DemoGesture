@@ -6,8 +6,9 @@
 //
 
 #import "ViewController.h"
+#import "UISwipeDownLeftGesture.h"
 
-@interface ViewController ()
+@interface ViewController () <UIGestureRecognizerDelegate>
 
 @end
 
@@ -15,8 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = UIColor.orangeColor;
+
+    UISwipeDownLeftGesture* gesture = [[UISwipeDownLeftGesture alloc]initWithTarget:self action:@selector(testGesture:)];
+    gesture.delegate = self;
+    [self.view addGestureRecognizer: gesture];
 }
 
+- (void)testGesture:(UIGestureRecognizer*)recognizer {
+    NSLog(@"down left.......");
+}
 
 @end
